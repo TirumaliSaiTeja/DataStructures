@@ -15,3 +15,5 @@ class Student{
 
 let firstName= new.Student("sai", "teja");
 let SecondName= new.Student("nani", "nani");
+
+// Adding instance method
