@@ -7,13 +7,15 @@
 // Syntax of class:
 
 class Student{
-    constructor(firstName, lastName){
+    constructor(firstName, lastName, middleName){
         this.firstName= firstName;
         this.lastName=lastName;
+        this.middleName=middleName;
     }
 }
 
-let firstName= new.Student("sai", "teja");
-let SecondName= new.Student("nani", "nani");
+let firstName= new.Student("sai", "teja", "tirumali");
+let SecondName= new.Student("nani", "nani", "sai");
+let middleName= new.Student("nani", "nani", "nani");
 
 // Adding instance method
