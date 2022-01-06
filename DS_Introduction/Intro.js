@@ -4,7 +4,7 @@
 // Constructor- method to create new objects
 // Instanciate values to the class using new keyword
 
-// Syntax of class:
+
 
 class Student{
     constructor(firstName, lastName, middleName){
